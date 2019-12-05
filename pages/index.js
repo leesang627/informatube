@@ -1,9 +1,12 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
-const Informatube = () => {
+const Index = () => {
 	return (
-		<div>Hello</div>
+		<Button variant="contained" color="primary">
+			Hello World
+		</Button>
 	)
 };
 
-export default Informatube;
+export default Index;

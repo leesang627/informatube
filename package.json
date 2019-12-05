@@ -1,0 +1,19 @@
+{
+  "name": "informatube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesang627/informatube.git"
+  },
+  "author": "Woogler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leesang627/informatube/issues"
+  },
+  "homepage": "https://github.com/leesang627/informatube#readme"
+}

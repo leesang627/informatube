@@ -2,7 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 import withRedux from 'next-redux-wrapper'
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { applyMiddleware, compose, createStore } from 'redux';
+
+import reducer from '../reducers';
 
 const Informatube = ({Component, store}) => {
 	return(
